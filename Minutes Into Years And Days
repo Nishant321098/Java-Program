@@ -1,0 +1,17 @@
+import java.io.*;
+class Main
+{
+public static void main(String args[])throws IOException
+{
+BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+int min,year,days,rmin,rdays;
+double s;
+System.out.println("Enter the number of minutes");
+min=Integer.parseInt(br.readLine());
+year = min / 525600;
+rmin = min % 525600;
+rdays = rmin/1440;
+System.out.println(min + " minutes is approximetly " + year + " years and "  +  rdays + " days ");
+}
+}
+
