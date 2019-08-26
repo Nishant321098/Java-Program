@@ -5,7 +5,7 @@ public static void main(String args[])throws IOException
 {
 BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 int sum=0,a,d,n;
-System.out.println("Enter the number");
+System.out.println("Enter an Integer");
 n=Integer.parseInt(br.readLine());
 while(n>0)
 {
